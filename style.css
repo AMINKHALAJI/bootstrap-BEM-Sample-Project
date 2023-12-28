@@ -141,6 +141,7 @@ header{
 }
 .contacts{
     min-height: 100vh;
+    padding: 3rem 0;
 }
 .contacts__header{
     min-height: 60vh;
@@ -152,8 +153,8 @@ header{
 
 }
 .contacts__quote{
-    max-width: 50vw;
-    font-size: x-large;
+    max-width: 70vw;
+    font-size: medium;
     font-weight: lighter;
     padding: 1rem 0;
 }
@@ -176,8 +177,9 @@ background-color: green;
     padding-bottom: 1rem;
 }
 .contacts__error{
-    max-width: 40vw;
+    min-width: 40vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -201,6 +203,19 @@ background-color: green;
         align-self: center;
         justify-self: center;
 
+    }
+    .contacts__error{
+        max-width: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacts__quote{
+        max-width: 50vw;
+        font-size: x-large;
+        font-weight: lighter;
+        padding: 1rem 0;
     }
 }
 
