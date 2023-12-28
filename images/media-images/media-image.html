@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://www.fentrack.co.uk/fabricators.php?pg=658c77559e1505.36988668 -->
+<html class="desktop mbr-site-loaded"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.fentrack.co.uk/assets/images/fentracklogo-128x128.png" type="image/x-icon">
+  <meta name="description" content="">
+  <meta name="google-site-verification" content="6b4Fmh2XwU0cHNRvhxftnX5Pmds3xKRSd7hS4kPRs6o">
+  <meta name="robots" content="noarchive">
+  <title>Tailored Manufacturing &amp; Delivery Tracking Solutions for Windows Doors &amp; Conservatories</title>
+  <link rel="stylesheet" href="./media-image_files/css">
+  <link rel="stylesheet" href="./media-image_files/font-awesome.min.css">
+  <link rel="stylesheet" href="./media-image_files/tether.min.css">
+  <link rel="stylesheet" href="./media-image_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./media-image_files/style.css">
+  <link rel="stylesheet" href="./media-image_files/style(1).css">
+  <link rel="stylesheet" href="./media-image_files/mbr-additional.css" type="text/css">
+  <script type="text/javascript" async="" src="./media-image_files/js"></script><script async="" src="./media-image_files/analytics.js"></script><script type="text/javascript" async="" src="./media-image_files/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-CDkofqMo6hSAPRh2TZj9HOLusb5hze4z6vkh6YWvd810w+KTuT5lucK9hQN36Xh7"></script><script src="./media-image_files/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="./media-image_files/sweetalert2.min.css">
+  <script src="./media-image_files/api.js"></script>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-103089877-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- /Google Analytics -->
+
+  
+<script>
+     function alertmsg() {
+        swal({
+
+        title: "Thank you",
+        text: "Your message has been logged. We will be in touch soon!"
+      
+        }).then(function () {
+
+            window.location.replace("/index.php?B6");
+        });
+    }
+    var correctCaptcha = function(response) {
+        swal(response);
+    };
+    function PostRecord(RelatedTable, dataToSend){
+        var response = grecaptcha.getResponse();
+        //recaptcha failed validation
+        if (response.length == 0) {
+            swal("Please click I'm not a robot");
+            return false;
+        }
+        var $myForm = $('#commit')
+
+        if (!$myForm[0].checkValidity()) {
+              // If the form is invalid, submit it. The form wont actually submit;
+              // this will just cause the browser to display the native HTML5 error messages.
+              $('<input type="submit">').hide().appendTo($myForm).click().remove();
+
+              return false;
+        }   
+
+        var dataToSend = $(dataToSend);
+
+        $.ajax({
+          type: "POST",
+          url: "/fti.php?naked&view=SaveRegistration&RelatedTable="+RelatedTable,
+          data: dataToSend.serializeArray(),
+          success: function(){
+            alertmsg();
+            //var ret=getUrlVars()["return"];
+          },
+          error: function(){           
+            swal("");
+          },        
+        });
+
+        return true;
+    }
+    </script><style type="text/css" id="#jarallax-clip-0">#jarallax-container-0 {
+   clip: rect(0 820px 1180px 0);
+   clip: rect(0, 820px, 1180px, 0);
+}</style></head>
+
+<body><section id="top-1" class="engine"> </section>
+
+
+
+<section class="menu1" id="menu2-z">
+
+    <nav class="navbar navbar-dropdown bg-color transparent">
+        <div class="container-fluid">
+
+            <div class="mbr-table">
+                <div class="mbr-table-cell logo">
+
+                                        <div class="navbar-brand">
+                        <a href="http://www.fentrack.co.uk/index.php?pg=658c77559e1505.36988668" class="navbar-logo"><img src="./media-image_files/fentracklogo-hor-white-tb-2099x426-ol-639x128.png" alt="FenTrack" style="height: 3.5rem;"></a>
+                        <a class="navbar-caption text-white" href="http://www.fentrack.co.uk/index.php?pg=658c77559e1505.36988668">Tailored Software Solutions</a>
+                    </div>
+                
+                </div>
+                <div class="mbr-table-cell text" style="vertical-align: top; padding-top: 35px;">
+
+                    <button class="navbar-toggler pull-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                        <div class="hamburger-icon"></div>
+                    </button>
+
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-xl nav-dropdown-sm" id="exCollapsingNavbar">
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-item" href="https://www.fentrack.co.uk/index.php?pg=658c77559e1505.36988668">Home</a>
+                            <a class="dropdown-item" href="https://www.fentrack.co.uk/manufacture.php?pg=658c77559e1505.36988668">Manufacture</a>
+                            <a class="dropdown-item" href="https://www.fentrack.co.uk/deliver.php?pg=658c77559e1505.36988668">Deliver</a>
+                            <a class="dropdown-item" href="https://www.fentrack.co.uk/stock.php?pg=658c77559e1505.36988668">Stock</a>
+                            <a class="dropdown-item" href="https://www.fentrack.co.uk/madetomeasure.php?pg=658c77559e1505.36988668">Made To Measure</a>
+                            <a class="dropdown-item" href="https://www.fentrack.co.uk/about.php?pg=658c77559e1505.36988668">About us</a>
+                            <a class="dropdown-item" href="https://www.fentrack.co.uk/contact.php?pg=658c77559e1505.36988668">Contact</a>
+                            <div class="dropdown-menu"></div>
+                        </li>
+                    </ul>
+
+                    <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                        <div class="close-icon"></div>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+</section>
+
+
+<section class="mbr-section mbr-section-hero mbr-section-full header8 mbr-parallax-background mbr-after-navbar" id="header8-51" style="background-image: none; padding-top: 90px; position: relative; background-attachment: scroll; background-size: auto;" data-jarallax-original-styles="background-image: url(&quot;assets/images/fabricators-page-bg&quot;); padding-top: 90px; position: relative;">
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);">
+    </div>
+        <div class="mbr-table-cell">
+            <div class="container">
+
+                    <div id="title">
+                        
+                        <div class="mbr-table-cell mbr-left-padding-md-up col-md-6 text-xs-center text-md-left">
+
+                            <h3 class="mbr-section-title display-2">FenTrack&nbsp;for Fabricators</h3>
+
+                            <div class="mbr-section-subtitle sub-2">
+                                <p>Imagine the heavy lifting of logistics, tracking and installation done for you.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+            </div> 
+        </div> 
+                
+<div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url(&quot;https://www.fentrack.co.uk/assets/images/fabricators-page-bg&quot;); position: fixed; top: 0px; left: 0px; width: 1574.08px; height: 1180px; overflow: hidden; pointer-events: none; margin-left: -377.038px; margin-top: 0px; visibility: visible; transform: translate3d(0px, -402.6px, 0px);"></div></div></section>
+
+<section class="mbr-section mbr-section-hero mbr-section-full header8" id="header9-57" style="background-image: linear-gradient(to right top, rgb(255, 255, 253), rgb(255, 252, 246)); background-color: rgb(255, 255, 253); background-position: initial initial; background-repeat: initial initial;">
+
+    
+        <div class="mbr-table-cell">
+            <div class="container">
+
+                    <div id="title">
+                        <div class="mbr-figure image-size" style="width: 55%;"><img src="./media-image_files/fabricators-page-section1-img"></div>
+                        <div class="mbr-table-cell mbr-left-padding-md-up col-md-6 text-xs-center text-md-left">
+
+                            <h3 class="mbr-section-title display-2">Perfect display in all devices</h3>
+
+                            <div class="mbr-section-subtitle sub-2">
+                                <p>Based in the cloud, your platform will be accessible to all authorised members of the company at any moment in time. With easy accessibility from any internet connected device, your business can benefit from FenTrack anywhere in the world.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+            </div> 
+        </div> 
+                
+</section>
+
+<section class="mbr-section mbr-section-hero features3" id="features3-52" style="background-color: rgb(255, 252, 246); padding-top: 40px; padding-bottom: 40px;">
+
+    
+
+        
+
+        <div class="container-fluid">
+            <div class="col-xs-12 col-lg-10 col-lg-offset-1 features">
+
+                <div class="row">
+                    <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                        <h5 class="features-title mbr-section-subtitle sub-2">Why FenTrack</h5>
+                    </div>                    
+                </div>
+
+                <div class="row">
+
+                    <div class="mbr-cards-col col-xs-12 col-md-6">
+                        <div class="card">
+                            <div class="card-img col-xs-3"><a class="fa fa-check mbr-iconfont" style="font-size: 40px; color: rgb(255, 255, 255);"></a></div>
+                            <div class="card-box col-xs-9">
+                                <div class="card-box-inner">
+                                    <h4 class="card-title mbr-section-subtitle sub-2">Scalable</h4>
+                                </div>
+                                
+                                <p class="card-text mbr-section-text text-1">FenTrack was developed to be readily scalable with all your company needs without it slowing down. You need not be bound by restrictive management and logistics platforms any longer.<br></p>
+                                
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="mbr-cards-col col-xs-12 col-md-6">
+                        <div class="card">
+                            <div class="card-img col-xs-3"><a class="fa fa-check mbr-iconfont" style="font-size: 40px; color: rgb(255, 255, 255);"></a></div>
+                            <div class="card-box col-xs-9">
+                                <div class="card-box-inner">
+                                    <h4 class="card-title mbr-section-subtitle sub-2">Simple</h4>
+                                </div>
+                                
+                                <p class="card-text mbr-section-text text-1">Based on the features you require we tailor FenTrack to suit your business. It isn't an off-the-shelf package where you must adapt to the various (otherwise useless) features built for other people. We can also tailor the system so the reports you need are available at the touch of a button.<br></p>
+                                
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    
+                    <div class="mbr-cards-col col-xs-12 col-md-6">
+                        <div class="card">
+                            <div class="card-img col-xs-3"><a class="fa fa-check mbr-iconfont" style="font-size: 40px; color: rgb(255, 255, 255);"></a></div>
+                            <div class="card-box col-xs-9">
+                                <div class="card-box-inner">
+                                    <h4 class="card-title mbr-section-subtitle sub-2">Robust</h4>
+                                </div>
+                                
+                                <p class="card-text mbr-section-text text-1">We install FenTrack onto a dedicated server specifically for your performance requirements. With this, your platform will continue to be quick, stable and secure for the future.<br></p>
+                                
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="mbr-cards-col col-xs-12 col-md-6">
+                        <div class="card">
+                            <div class="card-img col-xs-3"><a class="fa fa-check mbr-iconfont" style="font-size: 40px; color: rgb(255, 255, 255);"></a></div>
+                            <div class="card-box col-xs-9">
+                                <div class="card-box-inner">
+                                    <h4 class="card-title mbr-section-subtitle sub-2">Affordable&nbsp;</h4>
+                                </div>
+                                
+                                <p class="card-text mbr-section-text text-1">Using low-cost methods of tracking throughout manufacture and delivery, FenTrack keeps operational costs low without the need for constant mobile data.  Handheld terminal tracking can be achieved using GPS coordinates through SMS.<br><br></p>
+                                
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                </div>
+    
+                <div class="row">
+                    
+                    <div class="mbr-cards-col col-xs-12 col-md-6">
+                        <div class="card">
+                            <div class="card-img col-xs-3"><a class="fa fa-check mbr-iconfont" style="font-size: 40px; color: rgb(255, 255, 255);"></a></div>
+                            <div class="card-box col-xs-9">
+                                <div class="card-box-inner">
+                                    <h4 class="card-title mbr-section-subtitle sub-2">Keep Your Hardware</h4>
+                                </div>
+                                
+                                <p class="card-text mbr-section-text text-1">FenTrack is built to work with your current hardware. We understand it is costly to upgrade hardware to meet the requirements of a new system; this is why FenTrack was built differently.<br></p>
+                                
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="mbr-cards-col col-xs-12 col-md-6">
+                        <div class="card">
+                            <div class="card-img col-xs-3"><a class="fa fa-check mbr-iconfont" style="font-size: 40px; color: rgb(255, 255, 255);"></a></div>
+                            <div class="card-box col-xs-9">
+                                <div class="card-box-inner">
+                                    <h4 class="card-title mbr-section-subtitle sub-2">Owned License</h4>
+                                </div>
+                                
+                                <p class="card-text mbr-section-text text-1">Continuous monthly expenditure on a system which operates as a service (SaaS) is not economical for business. FenTrack can be purchased as a completely owned license software which becomes your asset and significantly reduces your monthly operating costs.<br><br></p>
+                                
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+</section>
+
+<section class="mbr-section mbr-section-hero features22" id="features22-5c" style="background-image: url(assets/images/fabricators-page-section3-img); padding-top: 40px; padding-bottom: 40px;">
+
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(43, 68, 132);"></div>
+
+    <div class="container">
+        <div class="row heading">
+            <div class="col-md-10">
+
+                <h1 class="mbr-section-title display-3 heading-title">Strong Customer Features</h1>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="card-wrap col-xs-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
+                <div class="row">
+
+                    <div class="mbr-cards-col col-xs-12">
+                        <div class="card">
+                            
+                            <div class="card-box col-xs-9 mbr-table-cell text-xs-left">
+                                <h4 class="card-title mbr-section-subtitle sub-1">Customer Order Tracking</h4>
+                                <p class="card-text mbr-section-text text-1">Organised order tracking enables you to continually monitor progress during the manufacture of a customer's order.</p>
+                            </div>  
+                            <div class="card-img col-xs-3 mbr-table-cell"><a class="fa fa-check mbr-iconfont" style="color: rgb(255, 255, 255);"></a></div>                          
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="mbr-cards-col col-xs-12">
+                        <div class="card">
+                            <div class="card-box col-xs-9 mbr-table-cell text-xs-left">
+                                <h4 class="card-title mbr-section-subtitle sub-1">Customer Delivery Tracking</h4>
+                                <p class="card-text mbr-section-text text-1">Ensuring all products arrive together - one delivery - in the shortest period of time. Using the delivery planner, delivery routes can be grouped to ensure the shortest, most efficient routes are taken.</p>
+                            </div> 
+                            <div class="card-img col-xs-3 mbr-table-cell"><a class="fa fa-check mbr-iconfont" style="color: rgb(255, 255, 255);"></a></div>                           
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="mbr-cards-col col-xs-12">
+                        <div class="card">
+                            
+                            <div class="card-box col-xs-9 mbr-table-cell text-xs-left">
+                                <h4 class="card-title mbr-section-subtitle sub-1">Customer Communication</h4>
+                                <p class="card-text mbr-section-text text-1">We believe in great customer service; the FenTrack product allows continuous automated communication with your customers, ensuring they can be advised of the progress of their order.</p>
+                            </div>  
+                            <div class="card-img col-xs-3 mbr-table-cell"><a class="fa fa-check mbr-iconfont" style="color: rgb(255, 255, 255);"></a></div>                          
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section mbr-section-hero features22" id="features22-5d" style="background-image: url(assets/images/fabricators-page-section4-img); padding-top: 40px; padding-bottom: 40px;">
+
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(31, 128, 104);"></div>
+
+    <div class="container">
+        <div class="row heading">
+            <div class="col-md-10">
+
+                <h1 class="mbr-section-title display-3 heading-title">Ingenious Efficiency</h1>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="card-wrap col-xs-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
+                <div class="row">
+
+                    <div class="mbr-cards-col col-xs-12">
+                        <div class="card">
+                            
+                            <div class="card-box col-xs-9 mbr-table-cell text-xs-left">
+                                <h4 class="card-title mbr-section-subtitle sub-1">Simple Technology</h4>
+                                <p class="card-text mbr-section-text text-1">Printable barcodes identify parts required for production/assembly. Coupled with the FenTrack android app on handheld terminals, the barcodes are quickly scanned to ensure the total order requirement is captured. This means no pieces are wrongly processed or missed for the order at hand. This reduces waste and increases efficiency through timely, organised production.</p>
+                            </div>  
+                            <div class="card-img col-xs-3 mbr-table-cell"><a class="fa fa-check mbr-iconfont" style="color: rgb(255, 255, 255);"></a></div>                          
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="mbr-cards-col col-xs-12">
+                        <div class="card">
+                            <div class="card-box col-xs-9 mbr-table-cell text-xs-left">
+                                <h4 class="card-title mbr-section-subtitle sub-1">Fully Scalable</h4>
+                                <p class="card-text mbr-section-text text-1">Ensuring all products arrive together - one delivery - in the shortest period of time. By using the delivery planner, delivery routes can be grouped to ensure the shortest, most efficient routes are taken.</p>
+                            </div> 
+                            <div class="card-img col-xs-3 mbr-table-cell"><a class="fa fa-check mbr-iconfont" style="color: rgb(255, 255, 255);"></a></div>                           
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="mbr-cards-col col-xs-12">
+                        <div class="card">
+                            
+                            <div class="card-box col-xs-9 mbr-table-cell text-xs-left">
+                                <h4 class="card-title mbr-section-subtitle sub-1">Customer Communication</h4>
+                                <p class="card-text mbr-section-text text-1">We believe in great customer service; the FenTrack product allows continuous automated communication with your customers, ensuring they can be advised of the progress of their order.</p>
+                            </div>  
+                            <div class="card-img col-xs-3 mbr-table-cell"><a class="fa fa-check mbr-iconfont" style="color: rgb(255, 255, 255);"></a></div>                          
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section pricingtable2" id="pricing-table2-5e" style="background-color: rgb(255, 252, 246); padding-top: 120px; padding-bottom: 120px;">
+
+    
+
+      <div class="container heading">
+          <div class="row">
+              <div class="col-xs-12 text-xs-center">
+                  
+                  
+              </div>
+          </div>
+      </div>
+
+    <div class="container">
+      <div class="row plan">
+        <div class="plan-wrap col-xs-12 default col-lg-4" style="display: block;">
+          <h3 class="plan-title mbr-section-title sub-2 firstType">Manufacture</h3>
+          <p class="plan-price">
+            <span class="plan-text mbr-section-text text-1 normal price"><span class="price">from £7250</span></span>
+            <span class="plan-text mbr-section-text text-1 normal currency"></span>
+            <span class="plan-text mbr-section-text text-1 normal"></span>
+          </p>
+          <p class="plan-text mbr-section-text text-1"></p>
+          <p class="plan-text mbr-section-text text-1"></p>
+          
+          
+          
+          
+          
+          <div class="plan-btn text-xs-center"><a href="https://www.fentrack.co.uk/manufacture.php" class="btn btn-lg btn-black-outline">More</a></div>
+        </div>
+
+        <div class="plan-wrap col-xs-12 default col-lg-4" style="display: block;">
+          <h3 class="plan-title mbr-section-title sub-2 secondType">Deliver</h3>
+          <p class="plan-price">
+            <span class="plan-text mbr-section-text text-1 normal price"><span class="price">from £4300</span></span>
+            <span class="plan-text mbr-section-text text-1 normal currency"></span>
+            <span class="plan-text mbr-section-text text-1 normal"></span>
+          </p>
+          <p class="plan-text mbr-section-text text-1"></p>
+          <p class="plan-text mbr-section-text text-1"></p>
+          
+          
+          
+          
+          
+          <div class="plan-btn text-xs-center"><a href="https://www.fentrack.co.uk/deliver.php" class="btn btn-lg btn-black-outline">More</a></div>
+        </div>
+
+        <div class="plan-wrap col-xs-12 default col-lg-4" style="display: block;">
+          <h3 class="plan-title mbr-section-title sub-2 thirdType">Stock</h3>
+          <p class="plan-price">
+            <span class="plan-text mbr-section-text text-1 normal price"><span class="price">from £6300</span></span>
+            <span class="plan-text mbr-section-text text-1 normal currency"></span>
+            <span class="plan-text mbr-section-text text-1 normal"></span>
+          </p>
+          <p class="plan-text mbr-section-text text-1"></p>
+          <p class="plan-text mbr-section-text text-1"></p>
+          
+          
+          
+          
+          
+          <div class="plan-btn text-xs-center"><a href="https://www.fentrack.co.uk/stock.php" class="btn btn-lg btn-black-outline">More</a></div>
+        </div>
+
+        <div class="plan-wrap col-xs-12 hidden col-lg-4" style="display: none;">
+          <h3 class="plan-title mbr-section-title sub-2 fourthType"></h3>
+          <p class="plan-price">
+            <span class="plan-text mbr-section-text text-1 normal price"></span>
+            <span class="plan-text mbr-section-text text-1 normal currency"></span>
+            <span class="plan-text mbr-section-text text-1 normal"></span>
+          </p>
+          <p class="plan-text mbr-section-text text-1"></p>
+          <p class="plan-text mbr-section-text text-1"></p>
+          
+          
+          
+          
+          
+          <div class="plan-btn text-xs-center"><a href="https://www.fentrack.co.uk/contact.php" class="btn btn-lg btn-black-outline">More</a></div>
+        </div>
+      </div>
+    </div>   
+</section>
+
+<section class="mbr-section mbr-section-hero form1" id="form1-54" style="background-color: rgb(255, 255, 253); padding-top: 40px; padding-bottom: 40px;">
+
+    
+
+        <div class="container">
+            <div class="row heading">
+                <div class="col-md-12 text-xs-center">
+
+                    <h1 class="mbr-section-title display-3 heading-title">Request a free consultation</h1>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-xs-12 form">
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <h5 class="form-title mbr-section-subtitle text-1"></h5>
+                    </div>                    
+                </div>
+
+                <div class="row">
+                    
+
+
+                    <form id="commit" name="commit">
+
+                        <input type="hidden" value="YwCCk7rKrp20LUZ69H95e4vDIPSQQRQ4bp9G2uzwMjdNQEi06xSgP7kDCHrYTuPLXO0y1ipzv1sdc52QVc+MTzFSlhD5gZXAcgPd85ZiBUhMU0k+Uue9kT0jI0u8K49I">
+                        <input type="hidden" name="pg" value="658c77559e1505.36988668">
+
+                        <div class="col-xs-12 col-md-8 col-md-offset-2 form-wrap">
+
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label class="form-control-label">Name*</label>
+                                    <input type="text" class="form-control" name="name" required="" placeholder="Name*">
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label class="form-control-label">Email*</label>
+                                    <input type="email" class="form-control" name="email" required="" placeholder="Email*">
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="col-xs-12">
+                                <label class="form-control-label">Optional comments</label>
+                                <textarea class="form-control" name="message" rows="7" placeholder="Optional comments"></textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="form-separator"></div>
+
+                        <div class="col-xs-12 col-md-8 col-md-offset-2 form-button-wrap">
+
+                            <div class="text-xs-center text-md-right"><button type="submit" class="btn btn-lg btn-primary" onclick="if(PostRecord(&#39;ViewingRequest&#39;, &#39;#commit&#39;)){ alertmsg()} return false;">Send</button></div>
+                            <br>
+                            <div class="col-xs-12 mbr-table-cell padding-right-0 form-block">
+                              <div class="g-recaptcha" data-sitekey="6LdfFi0UAAAAAOv-PabK9Caq-xvO6vt0Cwqt-tjZ"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-96ivy8pv48vm" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./media-image_files/anchor.html"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./media-image_files/saved_resource(1).html"></iframe></div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+    
+            </div>
+        </div>
+
+
+</section>
+
+<section class="mbr-slider mbr-section mbr-section-nopadding carousel slide testimonials1" data-ride="carousel" data-keyboard="false" data-wrap="true" data-pause="false" data-interval="5000" id="testimonials1-55" style="background-color: rgb(255, 252, 246); padding-top: 40px; padding-bottom: 40px;">
+
+    
+
+    <div class="mbr-section__container mbr-section__container--middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-xs-center">
+                    <h3 class="mbr-section-title display-3">Customers ♥ the FenTrack Team</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container boxed-slider">
+        <div>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="mbr-testimonial card">
+                                <div class="mbr-author card-footer">
+                                    
+                                    <div class="author">
+                                        <div class="mbr-author-name">Fabricator</div>
+                                    <small class="mbr-author-desc">Peterlee</small>
+                                    </div>
+                                </div>
+                                <div class="card-block"><p><span style="background-color: transparent; font-size: 1rem; line-height: 1.5;">“.. We are able to track jobs from the order stage to the instant they are signed for on delivery and this has helped us not only improve our factory but our customer service too. Unlike other companies we looked at for software, Fentrack has been tailored to us and its system is unique to our factory.  As we continue to grow in the industry our needs and our factory will change, and there is comfort knowing we are able to adapt our systems with Fentrack along the way.  It has been a pleasure dealing with Fentrack over the past year and we look forward to our growing relationship ..“</span></p><p><br></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="carousel-item">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="mbr-testimonial card">
+                                <div class="mbr-author card-footer">
+                                    
+                                    <div class="author">
+                                        <div class="mbr-author-name">A Manufacturer</div>
+                                    <small class="mbr-author-desc">West Yorkshire</small>
+                                    </div>
+                                </div>
+                                <div class="card-block"><p>“From consultation to production, Martin involved us along the way to tailor a phased solution to our exact requirements. The team provided us with a powerful tool which we use daily. A noticeable rise in efficiency has enabled us to take on more orders and that’s why we would recommend FenTrack Ltd.“</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="carousel-item active left">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="mbr-testimonial card">
+                                <div class="mbr-author card-footer">
+                                    
+                                    <div class="author">
+                                        <div class="mbr-author-name">Supplier</div>
+                                    <small class="mbr-author-desc">West Midlands</small>
+                                    </div>
+                                </div>
+                                <div class="card-block"><p>“FenTrack has enabled us to streamline our business. The old paper and spreadsheet system has been replaced with a flexible product that we can all use simultaneously.“</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item next left">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="mbr-testimonial card">
+                                <div class="mbr-author card-footer">
+                                    
+                                    <div class="author">
+                                        <div class="mbr-author-name">Window Manufacturer</div>
+                                    <small class="mbr-author-desc">Leeds</small>
+                                    </div>
+                                </div>
+                                <div class="card-block"><p>“Where three other companies tried and failed, Steve and the team found a solution for one of our thorny technical problems. We are delighted with our new system; it continues to save us time and ensures accuracy. We continue to work together with the FenTrack team to streamline our business IT systems.“</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ol class="carousel-indicators">
+                <li data-app-prevent-settings="" data-target="#testimonials1-33" data-slide-to="0" class=""></li><li data-app-prevent-settings="" data-target="#testimonials1-33" class="" data-slide-to="1"></li>
+                <li data-app-prevent-settings="" data-target="#testimonials1-33" data-slide-to="2" class=""></li>
+                <li data-app-prevent-settings="" data-target="#testimonials1-33" data-slide-to="3" class="active"></li>
+            </ol>
+
+            <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="https://www.fentrack.co.uk/fabricators.php?pg=658c77559e1505.36988668#testimonials1-55">
+                <span class="mbri-left" aria-hidden="true" style="color: rgb(227, 227, 227);"><img src="./media-image_files/arrow-left.png"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="https://www.fentrack.co.uk/fabricators.php?pg=658c77559e1505.36988668#testimonials1-55">
+                <span class="mbri-right" aria-hidden="true" style="color: rgb(227, 227, 227);"><img src="./media-image_files/arrow-right.png"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="mbr-section footer1" id="footer1-1m" style="background-color: rgb(255, 255, 255); padding-top: 40px; padding-bottom: 40px;">
+
+    
+
+    <div class="container">
+    <div class="row">
+        <div class="mbr-cards-col col-xs-12 col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-box col-xs-9 col-lg-12">
+                    <h4 class="card-title mbr-section-subtitle sub-2">FenTrack</h4>
+                    <p class="card-text mbr-section-text text-2"><a href="https://www.fentrack.co.uk/manufacture.php?pg=658c77559e1505.36988668">Manufacture</a><br><a href="https://www.fentrack.co.uk/deliver.php?pg=658c77559e1505.36988668">Deliver</a><br><a href="https://www.fentrack.co.uk/stock.php?pg=658c77559e1505.36988668">Stock</a></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="mbr-cards-col col-xs-12 col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-box col-xs-9 col-lg-12">
+                    <h4 class="card-title mbr-section-subtitle sub-2">Our Solutions</h4>
+                    <p class="card-text mbr-section-text text-2"><a href="https://www.fentrack.co.uk/fabricators.php?pg=658c77559e1505.36988668">For Fabricators</a><br><a href="https://www.fentrack.co.uk/madetomeasure.php?pg=658c77559e1505.36988668">Made To Measure</a><br><a href="https://www.fentrack.co.uk/approach.php?pg=658c77559e1505.36988668">Why FenTrack</a><br><a href="https://www.fentrack.co.uk/pricing.php?pg=658c77559e1505.36988668">Pricing</a></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="mbr-cards-col col-xs-12 col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-box col-xs-9 col-lg-12">
+                    <h4 class="card-title mbr-section-subtitle sub-2">More</h4>
+                    <p class="card-text mbr-section-text text-2"><a href="https://www.fentrack.co.uk/about.php?pg=658c77559e1505.36988668">About FenTrack</a><br><a href="https://www.fentrack.co.uk/questions.php?pg=658c77559e1505.36988668">Frequent Questions</a><br><a href="https://www.fentrack.co.uk/contact.php?pg=658c77559e1505.36988668">Get in touch</a><br><a href="https://www.fentrack.co.uk/demo.php?pg=658c77559e1505.36988668">FenTrack Demo</a></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="mbr-cards-col col-xs-12 col-sm-6 col-lg-3">
+            <div class="card">
+                <div class="card-box col-xs-9 col-lg-12">
+                    <h4 class="card-title mbr-section-subtitle sub-2">Follow us</h4>
+                    <p class="card-text mbr-section-text text-2"></p><p><a href="https://twitter.com/Fentrack1">@FenTrack1</a><a href="https://twitter.com/Fentrack1"></a><a href="https://www.fentrack.co.uk/about.php?pg=658c77559e1505.36988668"></a></p><p></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-xs-12 text-xs-center">
+                <p class="card-text mbr-section-text text-1"><a href="http://fentrack.co.uk/index.php?pg=658c77559e1505.36988668">FenTrack Ltd, 2018 &nbsp;&nbsp;Tel: 0113 314 8989 &nbsp;&nbsp; Address: Woodvale House, Woodvale Road, Brighouse, United Kingdom, HD6 4AB</a></p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+  <script src="./media-image_files/jquery.min.js"></script>
+  <script src="./media-image_files/tether.min.js"></script>
+  <script src="./media-image_files/bootstrap.min.js"></script>
+  <script src="./media-image_files/smooth-scroll.js"></script>
+  <script src="./media-image_files/script.min.js"></script>
+  <script src="./media-image_files/jquery.touch-swipe.min.js"></script>
+  <script src="./media-image_files/jarallax.js"></script>
+  <script src="./media-image_files/bootstrap-carousel-swipe.js"></script>
+  <script src="./media-image_files/script.js"></script>
+  <script src="./media-image_files/formoid.min.js"></script>
+  
+  
+
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" name="c-96ivy8pv48vm" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./media-image_files/bframe.html" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

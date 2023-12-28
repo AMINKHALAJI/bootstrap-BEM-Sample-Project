@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link for bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- link for bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap Blog Project</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-transparent  navbar-dark">
+        <div class="container">
+          <div class="navbar__items">
+            <button
+              class="hamburger__btn navbar-toggler d-flex d-lg-none flex-column justify-content-around"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarBtn"
+              aria-controls="#navbarBtn"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+            >
+              <span class="hamburger__icon navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="navbar__container collapse navbar-collapse"
+              id="navbarBtn"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home"> Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products"> Products </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products"> Services </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#medias"> Media </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio"> Portfolio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacts"> Contacts </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="navbar__logo ps-lg-3">
+              <a class="navbar__logo btn-sm navbar-brand" href="#">LOGO </a>
+            </div>
+
+            <div class="navbar__btn">
+              <button class="btn btn-sm btn-outline-secondary" type="button">
+                ENGLISH>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="content" id="home">
+        <div class="container header__content">
+          <h1>Enjoy your life</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+            delectus!
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <section class="products" id="products">
+      <div class="container">
+        <div class="products__header">
+          <h1 class="header__title">Our Products</h1>
+          <p class="header__text">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+
+        <div class="products__cards container">
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="products__card card">
+                <img
+                  src="images/product-images/beautiful-sunrise-resize.jpeg"
+                  class="card__img card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body card__body">
+                  <h5 class="card-title">Beautiful Sunrise</h5>
+                  <p class="card-text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="products__card card">
+                <img
+                  src="images/product-images/cute-dog-res.jpeg"
+                  class="card__img card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body card__body">
+                  <h5 class="card-title">Cute Little Dog</h5>
+                  <p class="card-text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="products__card card">
+                <img
+                  src="images/product-images/wooden-bridge resize.jpeg"
+                  class="card__img card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body card__body">
+                  <h5 class="card-title">A Wooden Bridge</h5>
+                  <p class="card-text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia..
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="products__card card">
+                <img
+                  src="images/product-images/puppy.jpeg"
+                  class="card__img card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body card__body">
+                  <h5 class="card-title">Puppy & I in the Farm</h5>
+                  <p class="card-text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="products__card card">
+                <img
+                  src="images/product-images/big-wave-res.jpeg"
+                  class="card__img card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body card__body">
+                  <h5 class="card-title">A Big Wave of the Blue Sea</h5>
+                  <p class="card-text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="products__card card">
+                <img
+                  src="images/product-images/foggy pine (1).jpeg"
+                  class="card__img card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body card__body">
+                  <h5 class="card-title">A Big Wave of the Blue Sea</h5>
+                  <p class="card-text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia..
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="medias" id="medias">
+      <div class="container">
+        <div class="products__header">
+          <img
+            src="images/media-images/media-img.png"
+            class="medias__img"
+            
+            alt=""
+          />
+          <h1 class="header__title medias__title">MEDIAS</h1>
+          <p class="header__text medias__text">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean. A small river named Duden flows.
+          </p>
+        </div>
+
+        <div class="products__cards container">
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="products__card card border border-white">
+                <div class="icon__container">
+                  <i class="icon bi  bi-power"></i>
+                </div>
+                
+                <div class="card-body card__body ">
+                  <h5 class="card-title">Best For Startup</h5>
+                  <p class="card-text card__text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="products__card card border border-white">
+                <div class="icon__container">
+                  <i class="icon bi  bi-flag"></i>
+                </div>
+                <div class="card-body card__body">
+                  <h5 class=" card-title">Easy To Use</h5>
+                  <p class="card-text card__text ">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="products__card card border border-white">
+                <div class="icon__container">
+                  <i class="icon bi bi-ui-checks"></i>
+                </div>
+                <div class="card-body card__body">
+                  <h5 class="card-title">Robust In Mind</h5>
+                  <p class="card-text card__text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="products__card card border border-white">
+                <div class="icon__container">
+                  <i class="icon bi bi-chat-square-quote"></i>
+                </div>
+                <div class="card-body card__body">
+                  <h5 class="card-title">Beautiful Typography</h5>
+                  <p class="card-text card__text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="products__card card border border-white">
+                <div class="icon__container">
+                  <i class="icon bi bi-cloud"></i>
+                </div>
+                <div class="card-body card__body">
+                  <h5 class="card-title">Eco Friendly</h5>
+                  <p class="card-text card__text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="products__card card border border-white">
+                <div class="icon__container">
+                  <i class="icon bi bi-box-seam"></i>
+                </div>
+                <div class="card-body card__body">
+                  <h5 class="card-title">Wide and Boxed</h5>
+                  <p class="card-text card__text">
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <section class="portfolio" id="portfolio">
+        <div class="container  d-flex p-5 flex-column-reverse flex-md-row justify-content-center .align-items-center">
+          <div class="portrfolio__alldesc">
+            <div class="portfolio__header">
+              <h6 class="header__title fw-lighter ">All the project</h6>
+              <h1 class="header__title ">PORTFOLIO</h1>
+            </div>
+            <div class="prtfolio__projects">
+              <div class="portfolio__project">
+                <div class="portfolio__icon">
+                  <i class="bi bi-check fs-1 "></i>
+                </div>
+                <div class="portfolio__description">
+                  <h1 class="description__title fw-lighter">WEBSITE A</h1>
+                  <p class="description__text fw-lighter">Far far away, behind the word mountains, 
+                    far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+              </div>
+              
+              <div class="portfolio__project">
+                <div class="portfolio__icon">
+                  <i class="bi bi-check fs-1  "></i>
+                </div>
+                <div class="portfolio__description">
+                  <h1 class="description__title fw-lighter">WEBSITE B</h1>
+                  <p class="description__text fw-lighter">Far far away, behind the word mountains, 
+                    far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+              </div>
+              
+              <div class="portfolio__project">
+                <div class="portfolio__icon">
+                  <i class="bi bi-check fs-1"></i>
+                </div>
+                <div class="portfolio__description">
+                  <h1 class="description__title fw-lighter">WEBSITE C</h1>
+                  <p class="description__text fw-lighter">Far far away, behind the word mountains, 
+                    far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+          <div class="img__container d-flex">
+            <img
+            src="images/portfolio-img/macbook.png"
+            class=" img-fluid portfolio__img justify-self-end align-self-center "
+            alt=""
+          />
+          </div>
+            
+          
+        </div>
+      </section>
+      
+
+      <section class="contacts" id="contacts">
+        
+          
+            <div class="contacts__header ">
+              <h1 class="contacts__title">CONTACT</h1>
+              <q class="contacts__quote"> I think design would be better if designers 
+            
+                were much more skeptical about its applications. If you
+                 believe in the potency of your craft, where you choose to dole it out 
+                 is not something to take lightly.</q>
+    
+                 <h6 class="contacts__writer">-Frank Chimero</h6>
+            </div>
+            
+            <div class=" contacts__subscribe ">
+              <h3 class="subscribe__header">Subscribe to our newsletter</h3>
+              <form  class=" input-group subscribe__submit ">
+                <div class="form-floating contacts__error">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email" required>
+                  <label for="email">Enter Your Email</label>
+                  <button class="submit__btn btn btn-dark btn-lg" type="button">Send</button>
+                </div>
+              </form>
+            </div>
+
+
+            
+        
+
+        
+          
+      </section>
+  
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="form-validation.js"></script>
+  </body>
+</html>
