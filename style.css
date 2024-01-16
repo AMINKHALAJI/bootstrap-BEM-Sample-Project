@@ -9,13 +9,14 @@ header{
     min-height: 100vh;
 }
 .navbar__items{
-
     display: flex;
     justify-content: space-around;
     align-items: center;
     
 }
-
+.header__desc{
+    font-weight: 500;
+}
 .navbar__btn{
     color: gray;
     display: flex;
@@ -31,6 +32,9 @@ header{
     min-width: 25vw;
 }
 
+p{
+    font-weight: 100;
+}
 .header__content{
     min-height: 40vh;
     display: flex;
@@ -155,7 +159,7 @@ header{
 .contacts__quote{
     max-width: 70vw;
     font-size: medium;
-    font-weight: lighter;
+    font-weight: 100;
     padding: 1rem 0;
 }
 .contacts__subscribe{
@@ -218,4 +222,34 @@ background-color: green;
         padding: 1rem 0;
     }
 }
+
+@media screen and (max-width: 990px){
+        .container{
+        position: relative;
+        }
+        .hamburger__btn{
+            position: absolute;
+            top: 0.5rem;
+            right: 1rem;
+           
+        } 
+        
+        .navbar__container{
+            width: 100vw;
+            
+        }
+        .submit__btn{
+            width:100%;
+            align-self: center;
+            justify-self: center;
+            margin-top: 0.5rem;
+        }
+        .contacts__error{
+            margin: 0.3rem 1rem;
+        }
+}
+
+
+
+
 
