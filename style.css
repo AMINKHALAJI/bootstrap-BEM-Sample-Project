@@ -8,21 +8,39 @@ header{
     background: url('images/image2.jpeg') no-repeat center center/cover;
     min-height: 100vh;
 }
+.navbar-light{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+
 .navbar__items{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color:rgb(255, 255, 255);
     
 }
 .header__desc{
     font-weight: 500;
 }
 .navbar__btn{
+
     color: gray;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    min-width: 20vw;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    justify-self: end;
+    align-self: flex-end;
+}
+
+.navabr__btn-option{
+   
+    border-bottom: 3px solid ;
+    color: white;
 }
 .navbar__logo{
     display: flex;
@@ -36,7 +54,7 @@ p{
     font-weight: 100;
 }
 .header__content{
-    min-height: 40vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -221,6 +239,20 @@ background-color: green;
         font-weight: lighter;
         padding: 1rem 0;
     }
+    .navbar__btn-container{
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+    }
+    .img__container{
+        
+    }
+    .portfolio__img{
+        width: 100%;
+        
+        
+       
+    }
 }
 
 @media screen and (max-width: 990px){
@@ -229,13 +261,16 @@ background-color: green;
         }
         .hamburger__btn{
             position: absolute;
-            top: 0.5rem;
+            top: 0.1rem;
             right: 1rem;
+            
            
         } 
         
         .navbar__container{
+            
             width: 100vw;
+            
             
         }
         .submit__btn{
@@ -247,6 +282,7 @@ background-color: green;
         .contacts__error{
             margin: 0.3rem 1rem;
         }
+        
 }
 
 
