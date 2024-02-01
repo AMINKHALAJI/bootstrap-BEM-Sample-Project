@@ -16,8 +16,10 @@ form.addEventListener("submit", (e) => {
     form.classList.add("was-validated");
     email.classList.add("successForm");
 
-    form.innerHTML = "Your request has been successfully submitted";
+    form.innerHTML = `<h4>Your Request Has Been Submitted Successfully </h4>`;
     form.style.color = "green";
+    form.style.display = "flex";
+    form.style.justifyContent = "center";
   }
 });
 
