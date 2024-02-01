@@ -199,11 +199,17 @@ background-color: green;
     padding-bottom: 1rem;
 }
 .contacts__error{
-    min-width: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.successForm{
+border: 2px solid green;
+}
+.failed{
+    border: 2px solid red;
+
 }
 @media screen and (min-width: 768px){
 
@@ -244,9 +250,7 @@ background-color: green;
         display: flex;
         justify-content: center;
     }
-    .img__container{
-        
-    }
+    
     .portfolio__img{
         width: 100%;
         

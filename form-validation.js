@@ -1,29 +1,34 @@
-const form=document.querySelector('form');
-const email=document.getElementById('email');
-
-const nav=document.querySelector('#nav-scroll');
-
-
-form.addEventListener('click',e=>{
-    
-      const emailVal=email.value;
-      const validEmail= emailVal.toLowerCase().match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
-      
-    if(!form.checkValidity() & !validEmail) {
-        e.preventDefault();
-    } 
-    form.classList.add('was-validated');
-})
+const form = document.querySelector("#form");
+const email = document.getElementById("email");
+const nav = document.querySelector("#nav-scroll");
 
 
-window.addEventListener('scroll', () => { 
-    const currentY=pageYOffset;
-    if (currentY > 0) {
-        nav.classList.remove("navbar-dark");
-        nav.classList.add("navbar-light");
-    } else {
-        nav.classList.remove("navbar-light");
-        nav.classList.add("navbar-dark");
-    }
-    
- });
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  email.classList.add("failed");
+  const emailVal = email.value;
+  const validEmail = emailVal.toLowerCase().match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/);
+  const validEmailLength = validEmail[0].length;
+
+  if (validEmailLength !== 0) {
+    e.preventDefault();
+    email.classList.remove("failed");
+    form.classList.add("was-validated");
+    email.classList.add("successForm");
+
+    form.innerHTML = "Your request has been successfully submitted";
+    form.style.color = "green";
+  }
+});
+
+// this part change the theme of the navbar if it srolled down
+window.addEventListener("scroll", () => {
+  const currentY = window.scrollY;
+  if (currentY > 0) {
+    nav.classList.remove("navbar-dark");
+    nav.classList.add("navbar-light");
+  } else {
+    nav.classList.remove("navbar-light");
+    nav.classList.add("navbar-dark");
+  }
+});
