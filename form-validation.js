@@ -20,6 +20,7 @@ form.addEventListener("submit", (e) => {
     form.style.color = "green";
     form.style.display = "flex";
     form.style.justifyContent = "center";
+    form.style.textAlign = "center";
   }
 });
 
